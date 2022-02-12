@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2? family= Kumbh+Sans:wght@400;700 & display=swap');
+
+
+:root {   
+
+
+--dark-cyan: hsl(185, 75%, 39%);
+--very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--dark-grayish-blue: hsl(227, 10%, 46%);
+--dark-gray: hsl(0, 0%, 59%);
+}
+
+*
+{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    background:url(images/bg-pattern-top.svg) bottom 500px right 100px no-repeat, url(images/bg-pattern-bottom.svg)top 500px left 100px no-repeat;
+    background-color: var(--dark-cyan);
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    align-items:center;
+    flex-direction: column;
+    font-family: 'Kumbh Sans';
+    color:var(--dark-grayish-blue);
+    font-size:15px;
+ 
+}
+
+
+.profile-card
+{
+    background-color: #FEFEFE;
+    background-image:url(images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: auto 35%;
+    height:300px;
+    border-radius:10px;
+    width:263px;
+    
+    
+    
+}
+
+.profile-img
+{
+    display:flex;
+    justify-content:center;
+    
+    
+}
+.img
+{
+    
+    margin:50px 0px 0px 0px;
+    border-radius:50px;
+    border: #FEFEFE 3px solid;
+    transform:scale(0.7);
+    
+    
+}
+
+.description
+{
+  display:flex;
+  justify-content:center;
+}
+
+.name
+{
+  font-weight:bold;
+  font-size:18px;
+  color: var(--very-dark-desaturated-blue);
+}
+.age
+{
+    margin:3px 8px;
+}
+
+.city
+{
+    display:flex;
+    justify-content:center;
+    height:30px;
+    margin:5px
+}
+
+hr
+{
+ height:0px;
+ border:none;
+ border-top: 0.5px solid #EBF0EF;
+    
+}
+
+.number
+{
+    display:flex;
+    justify-content: space-around;
+    color: var(--very-dark-desaturated-blue);
+    font-weight:bold;
+    font-size:18px;
+    padding:10px 0;
+
+}
+.stat
+{
+    display:flex;
+    justify-content: space-evenly;
+    margin:-4px;
+}
+.stat2
+{
+margin-right:23px;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
